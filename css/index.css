@@ -336,7 +336,7 @@ body #sidebar .inner nav ul li .current::after {
   padding: 0 0 0 1.5em;
   display: inline-block;
   line-height: 1;
-  color: #645195;
+  color: #b6aad2;
 }
 @media  ( max-width: 500px )  {
   body {
@@ -505,7 +505,7 @@ body #wrapper #three .inner .style1 .social .contact li .icons {
   margin: 1.2rem 0 0 2rem;
 }
 body #wrapper #three .inner .style1 .social .contact li .icons a {
-  color: #b6aad6;
+  color: #b6aad2;
   text-decoration: none;
   transition: color 1s;
   margin-right: 1.7rem;

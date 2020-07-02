@@ -6,7 +6,7 @@ body {
     /* The side navigation menu */
     #sidebar {
         padding: 2.5rem 2.5rem .5rem 2.5rem;
-        background: #312450;
+        background: @sidebar-color;
         height: 100vh;
         left: 0;
         overflow-x: hidden;
@@ -85,7 +85,7 @@ body {
                     li {
 
                         a {
-                            color: #b6aad2;
+                            color: @text-color-ter;
                             display: flex;
                             flex-direction: column;
                             margin-top: 10px;
@@ -112,7 +112,7 @@ body {
                             }
 
                             &:hover{
-                                color:white;
+                                color:@text-color-pri;
                                 transition:color 1s;
 
                                 &:after{
@@ -122,7 +122,7 @@ body {
                         }
 
                         .current{
-                            color:white;
+                            color:@text-color-pri;
                             transition:color 1s;
                             &::after{
                                 background: linear-gradient(to right, #5e42a6, #b74e91)!important;
