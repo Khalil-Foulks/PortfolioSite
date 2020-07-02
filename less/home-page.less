@@ -59,6 +59,11 @@ body {
                 display: flex;
                 width: 100%;
 
+                @media @tablet{
+                    flex-direction: column;
+                    align-items: center;
+                }
+
                 @media @mobile{
                     flex-direction: column;
                     align-items: center;
@@ -70,6 +75,9 @@ body {
                         border: 0;
                         position: relative;
                         height: 100%;
+                        // width: 50rem;
+                        // object-fit: contain;
+                        
 
                         @media @mobile{
                             width: 100%;
@@ -81,13 +89,6 @@ body {
                     padding: 4em 4em 2em 4em;
                     width: 100%;
 
-                    @media @tablet{
-                        width:50%;
-                    }
-
-                    @media @mobile{
-                        width:100%;
-                    }
 
                     .inner {
                         h2 {}
@@ -148,7 +149,7 @@ body {
                                         color: white;
                                         transition: color 1s ease;
                                         background-color: tint(rgba(128, 128, 128, 0.192), 1%);
-                                        transition: background-color 1s ease;
+                                        transition: background-color .5s ease;
                                     }
                                 }
                             }

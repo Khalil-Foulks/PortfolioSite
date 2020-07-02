@@ -393,6 +393,12 @@ body #wrapper #one section {
   display: flex;
   width: 100%;
 }
+@media  ( max-width: 800px )  {
+  body #wrapper #one section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media  ( max-width: 500px )  {
   body #wrapper #one section {
     flex-direction: column;
@@ -413,16 +419,6 @@ body #wrapper #one section a img {
 body #wrapper #one section .content {
   padding: 4em 4em 2em 4em;
   width: 100%;
-}
-@media  ( max-width: 800px )  {
-  body #wrapper #one section .content {
-    width: 50%;
-  }
-}
-@media  ( max-width: 500px )  {
-  body #wrapper #one section .content {
-    width: 100%;
-  }
 }
 body #wrapper #one section .content .inner p {
   color: rgba(255, 255, 255, 0.55);
@@ -475,7 +471,7 @@ body #wrapper #one section .content .inner ul li .button:hover {
   color: white;
   transition: color 1s ease;
   background-color: rgba(139, 139, 139, 0.20008);
-  transition: background-color 1s ease;
+  transition: background-color 0.5s ease;
 }
 body #wrapper #one section #first {
   background-color: #5052b5;
