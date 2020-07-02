@@ -282,6 +282,11 @@ body #sidebar .inner nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
 }
+@media  ( max-width: 500px )  {
+  body #sidebar .inner nav ul li a {
+    font-size: 1rem;
+  }
+}
 body #sidebar .inner nav ul li a:after {
   background: #3c2c62;
   border-radius: 0.2rem;
@@ -414,7 +419,7 @@ body #wrapper #one section .content {
     width: 50%;
   }
 }
-@media  ( max-width: 800px )  {
+@media  ( max-width: 500px )  {
   body #wrapper #one section .content {
     width: 100%;
   }
@@ -422,9 +427,18 @@ body #wrapper #one section .content {
 body #wrapper #one section .content .inner p {
   color: rgba(255, 255, 255, 0.55);
 }
+body #wrapper #one section .content .inner .tech {
+  color: white;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+body #wrapper #one section .content .inner .tech i {
+  font-size: 2.5rem;
+}
 body #wrapper #one section .content .inner ul {
   list-style: none;
-  margin: 0 0 2rem 0;
+  margin: 2rem 0 2rem 0;
   padding-left: 1rem;
   display: flex;
 }
