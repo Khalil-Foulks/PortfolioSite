@@ -6,7 +6,7 @@ let cur = [];
 
 if(window.innerWidth <= 500){ //conditional based on max width like media query --mobile--
   window.addEventListener("scroll", event => {
-    let fromTop = window.scrollY + 300;
+    let fromTop = window.scrollY + 280;
 
     mainNavLinks.forEach(link => {
       let section = document.querySelector(link.hash);
@@ -44,7 +44,7 @@ if(window.innerWidth <= 500){ //conditional based on max width like media query 
   });
 }else if (window.innerWidth >= 800){// --desktop--
   window.addEventListener("scroll", event => {
-    let fromTop = window.scrollY + 700;
+    let fromTop = window.scrollY + 750;
 
     mainNavLinks.forEach(link => {
       let section = document.querySelector(link.hash);
