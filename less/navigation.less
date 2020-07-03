@@ -98,11 +98,11 @@ body {
                             font-weight: bold;
 
                             @media @mobile{
-                                font-size: 1rem;
+                                font-size: .9rem;
                             }
 
                             &:after{
-                                background: #3c2c62;
+                                background: #434b50;
                                 border-radius: .2rem;
                                 content:'';
                                 height: .2rem;
@@ -112,20 +112,20 @@ body {
                             }
 
                             &:hover{
-                                color:@text-color-pri;
+                                color:@hover-color;
                                 transition:color 1s;
 
                                 &:after{
-                                    background-image: linear-gradient(to right, #5e42a6, #b74e91);
+                                    background-image: linear-gradient(to right, #04a0cf, #cf3304);
                                 }
                             }
                         }
 
                         .current{
-                            color:@text-color-pri;
+                            color:@hover-color;
                             transition:color 1s;
                             &::after{
-                                background: linear-gradient(to right, #5e42a6, #b74e91)!important;
+                                background: linear-gradient(to right, #04a0cf, #cf3304)!important;
                                 transition:background 2s ease;
                             }
                         }

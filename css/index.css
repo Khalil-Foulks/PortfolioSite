@@ -156,7 +156,7 @@ h3,
 h4,
 h5 {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: #FBFBFF;
   font-weight: bold;
 }
 h1 {
@@ -193,7 +193,7 @@ body {
 }
 body #sidebar {
   padding: 2.5rem 2.5rem 0.5rem 2.5rem;
-  background: #312450;
+  background: #040f16;
   height: 100vh;
   left: 0;
   overflow-x: hidden;
@@ -270,7 +270,7 @@ body #sidebar .inner nav ul {
   }
 }
 body #sidebar .inner nav ul li a {
-  color: #b6aad2;
+  color: #62696d;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
@@ -284,11 +284,11 @@ body #sidebar .inner nav ul li a {
 }
 @media  ( max-width: 500px )  {
   body #sidebar .inner nav ul li a {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 body #sidebar .inner nav ul li a:after {
-  background: #3c2c62;
+  background: #434b50;
   border-radius: 0.2rem;
   content: '';
   height: 0.2rem;
@@ -297,22 +297,22 @@ body #sidebar .inner nav ul li a:after {
   margin-top: 1rem;
 }
 body #sidebar .inner nav ul li a:hover {
-  color: white;
+  color: #f9f9f9;
   transition: color 1s;
 }
 body #sidebar .inner nav ul li a:hover:after {
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: linear-gradient(to right, #04a0cf, #cf3304);
 }
 body #sidebar .inner nav ul li .current {
-  color: white;
+  color: #f9f9f9;
   transition: color 1s;
 }
 body #sidebar .inner nav ul li .current::after {
-  background: linear-gradient(to right, #5e42a6, #b74e91) !important;
+  background: linear-gradient(to right, #04a0cf, #cf3304) !important;
   transition: background 2s ease;
 }
 #footer {
-  background-color: #493382;
+  background-color: #232D34;
   font-size: 1.2rem;
   color: black;
   margin-left: 20%;
@@ -336,7 +336,7 @@ body #sidebar .inner nav ul li .current::after {
   padding: 0 0 0 1.5em;
   display: inline-block;
   line-height: 1;
-  color: #b6aad2;
+  color: #62696d;
 }
 @media  ( max-width: 500px )  {
   body {
@@ -357,7 +357,7 @@ body #wrapper {
   }
 }
 body #wrapper #intro {
-  background-color: #5e42a6;
+  background-color: #0b4f6c;
   background-attachment: fixed;
   background-image: url('/images/intro.svg');
   background-position: top right;
@@ -379,12 +379,24 @@ body #wrapper #intro .inner {
 body #wrapper #intro .inner h1 {
   margin-bottom: 2rem;
   font-size: 6rem;
+  color: #f9f9f9;
+}
+@media  ( max-width: 500px )  {
+  body #wrapper #intro .inner h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
 }
 body #wrapper #intro .inner p {
   font-size: 2.5rem;
   margin: 0 0 2rem 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #b6aad2;
+  color: #f9f9f9;
+}
+@media  ( max-width: 500px )  {
+  body #wrapper #intro .inner p {
+    text-align: center;
+  }
 }
 body #wrapper #one {
   background-color: #484aa3;
@@ -420,11 +432,16 @@ body #wrapper #one section .content {
   padding: 4em 4em 2em 4em;
   width: 100%;
 }
+body #wrapper #one section .content .inner h2 {
+  padding: 1rem;
+}
 body #wrapper #one section .content .inner p {
-  color: rgba(255, 255, 255, 0.55);
+  color: #FBFBFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
 }
 body #wrapper #one section .content .inner .tech {
-  color: white;
+  color: #FBFBFF;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -456,7 +473,7 @@ body #wrapper #one section .content .inner ul li .button {
   white-space: nowrap;
   border-radius: 3rem;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(255, 255, 255, 0.55);
+  color: #FBFBFF;
   cursor: pointer;
   display: inline-block;
   font-weight: bold;
@@ -468,31 +485,32 @@ body #wrapper #one section .content .inner ul li .button {
   position: relative;
 }
 body #wrapper #one section .content .inner ul li .button:hover {
-  color: white;
+  color: #FBFBFF;
   transition: color 1s ease;
   background-color: rgba(139, 139, 139, 0.20008);
   transition: background-color 0.5s ease;
 }
 body #wrapper #one section #first {
-  background-color: #5052b5;
+  background-color: #0b376c;
 }
 body #wrapper #one section #second {
-  background-color: #4c4eac;
+  background-color: #0f4180;
 }
 body #wrapper #one section #third {
-  background-color: #5052b5;
+  background-color: #0b376c;
 }
 body #wrapper #two {
   background-color: #b74e91;
 }
 body #wrapper #three {
-  background-color: #5e42a6;
+  background-color: #0b4f6c;
   position: relative;
   height: 500px;
   text-align: center;
 }
 body #wrapper #three .inner h2 {
   padding-top: 20rem;
+  color: #f9f9f9;
 }
 body #wrapper #three .inner .style1 .social .contact li {
   margin-top: 1.7rem;
@@ -501,15 +519,14 @@ body #wrapper #three .inner .style1 .social .contact li .icons {
   font-size: 3rem;
   font-weight: bold;
   text-decoration: none;
-  color: white;
   margin: 1.2rem 0 0 2rem;
 }
 body #wrapper #three .inner .style1 .social .contact li .icons a {
-  color: #b6aad2;
+  color: #838b8f;
   text-decoration: none;
   transition: color 1s;
   margin-right: 1.7rem;
 }
 body #wrapper #three .inner .style1 .social .contact li .icons a:hover {
-  color: white;
+  color: #f9f9f9;
 }
