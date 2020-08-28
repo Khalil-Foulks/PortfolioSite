@@ -92,7 +92,6 @@ body {
                         // object-fit: contain;
                         // max-height: 400px;
 
-                        
 
                         @media @mobile{
                             width: 100%;
@@ -103,7 +102,7 @@ body {
                 .content {
                     padding: 4em 4em 2em 4em;
                     width: 100%;
-
+                    max-width:100%;
 
                     .inner {
                         h2 {
@@ -132,6 +131,11 @@ body {
                             margin: 2rem 0 2rem 0;
                             padding-left: 1rem;
                             display: flex;
+
+                            @media @laptop{
+                                max-width: 40rem;
+                                padding: 2rem 0 0 0;
+                            }
 
                             @media @tablet{
                                 padding: 2rem 0 0 0;
@@ -163,6 +167,10 @@ body {
                                     outline: 0;
                                     padding: 0 3.75rem;
                                     position: relative;
+
+                                    @media @laptop{
+                                        padding: 0 2.75rem;
+                                    }
 
                                     &:hover {
                                         color: @text-color-pri;

@@ -303,6 +303,15 @@ body #sidebar .inner nav ul li a:hover {
 body #sidebar .inner nav ul li a:hover:after {
   background-image: linear-gradient(to right, #04a0cf, #cf3304);
 }
+@media  ( max-width: 1440px )  {
+  body #sidebar .inner nav ul li a:hover {
+    color: #62696d;
+    transition: color 1s;
+  }
+  body #sidebar .inner nav ul li a:hover:after {
+    background-image: none;
+  }
+}
 body #sidebar .inner nav ul li .current {
   color: #f9f9f9;
   transition: color 1s;
@@ -435,6 +444,7 @@ body #wrapper #projects section a img {
 body #wrapper #projects section .content {
   padding: 4em 4em 2em 4em;
   width: 100%;
+  max-width: 100%;
 }
 body #wrapper #projects section .content .inner h2 {
   padding: 1rem;
@@ -458,6 +468,12 @@ body #wrapper #projects section .content .inner ul {
   margin: 2rem 0 2rem 0;
   padding-left: 1rem;
   display: flex;
+}
+@media  ( max-width: 1440px )  {
+  body #wrapper #projects section .content .inner ul {
+    max-width: 40rem;
+    padding: 2rem 0 0 0;
+  }
 }
 @media  ( max-width: 800px )  {
   body #wrapper #projects section .content .inner ul {
@@ -487,6 +503,11 @@ body #wrapper #projects section .content .inner ul li .button {
   outline: 0;
   padding: 0 3.75rem;
   position: relative;
+}
+@media  ( max-width: 1440px )  {
+  body #wrapper #projects section .content .inner ul li .button {
+    padding: 0 2.75rem;
+  }
 }
 body #wrapper #projects section .content .inner ul li .button:hover {
   color: #FBFBFF;
