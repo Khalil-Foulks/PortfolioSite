@@ -166,6 +166,11 @@ h2 {
   font-size: 3.2rem;
   padding-bottom: 1rem;
 }
+@media  ( max-width: 500px )  {
+  h2 {
+    font-size: 2.75rem;
+  }
+}
 h4 {
   font-size: 2.5rem;
   padding-bottom: 1rem;
@@ -177,6 +182,11 @@ p {
   color: white;
   font-family: "Courier New", monospace;
   font-weight: normal;
+}
+@media  ( max-width: 500px )  {
+  p {
+    font-size: 1.35rem;
+  }
 }
 img {
   max-width: 100%;
@@ -282,11 +292,6 @@ body #sidebar .inner nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
 }
-@media  ( max-width: 500px )  {
-  body #sidebar .inner nav ul li a {
-    font-size: 0.9rem;
-  }
-}
 body #sidebar .inner nav ul li a:after {
   background: #434b50;
   border-radius: 0.2rem;
@@ -310,6 +315,11 @@ body #sidebar .inner nav ul li a:hover:after {
   }
   body #sidebar .inner nav ul li a:hover:after {
     background-image: none;
+  }
+}
+@media  ( max-width: 500px )  {
+  body #sidebar .inner nav ul li a {
+    font-size: 0.9rem;
   }
 }
 body #sidebar .inner nav ul li .current {
@@ -350,6 +360,11 @@ body #sidebar .inner nav ul li .current::after {
 @media  ( max-width: 500px )  {
   body {
     max-width: 500px;
+  }
+}
+@media  ( max-width: 430px )  {
+  body {
+    max-width: 430px;
   }
 }
 body #wrapper {
@@ -507,6 +522,12 @@ body #wrapper #projects section .content .inner ul li .button {
 @media  ( max-width: 1440px )  {
   body #wrapper #projects section .content .inner ul li .button {
     padding: 0 2.75rem;
+  }
+}
+@media  ( max-width: 430px )  {
+  body #wrapper #projects section .content .inner ul li .button {
+    padding: 0 1.75rem;
+    font-size: 0.85rem;
   }
 }
 body #wrapper #projects section .content .inner ul li .button:hover {

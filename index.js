@@ -4,7 +4,7 @@ let mainSections = document.querySelectorAll("wrapper section");
 let lastId;
 let cur = [];
 
-if(window.innerWidth <= 501){ //conditional based on max width like media query --mobile--
+if(window.innerWidth <= 430){ //conditional based on max width like media query --mobile_s10--
   window.addEventListener("scroll", event => {
     let fromTop = window.scrollY + 280;
 
@@ -23,6 +23,26 @@ if(window.innerWidth <= 501){ //conditional based on max width like media query 
       }
     });
   });
+}else if(window.innerWidth <= 501) {// --mobile--
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY + 280;
+
+    mainNavLinks.forEach(link => {
+      let section = document.querySelector(link.hash);
+
+      if (
+        section.offsetTop <= fromTop + 105 &&
+        section.offsetTop + section.offsetHeight > fromTop + 105
+      ) {
+        link.classList.add("current");
+        // console.log(link)
+        // console.log(2)
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
 }else if(window.innerWidth <= 801) {// --tablet--
   window.addEventListener("scroll", event => {
     let fromTop = window.scrollY + 200;
