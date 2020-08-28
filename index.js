@@ -4,7 +4,7 @@ let mainSections = document.querySelectorAll("wrapper section");
 let lastId;
 let cur = [];
 
-if(window.innerWidth <= 500){ //conditional based on max width like media query --mobile--
+if(window.innerWidth <= 501){ //conditional based on max width like media query --mobile--
   window.addEventListener("scroll", event => {
     let fromTop = window.scrollY + 280;
 
@@ -12,8 +12,8 @@ if(window.innerWidth <= 500){ //conditional based on max width like media query 
       let section = document.querySelector(link.hash);
 
       if (
-        section.offsetTop <= fromTop + 55 &&
-        section.offsetTop + section.offsetHeight > fromTop + 55
+        section.offsetTop <= fromTop + 105 &&
+        section.offsetTop + section.offsetHeight > fromTop + 105
       ) {
         link.classList.add("current");
         // console.log(link)
@@ -23,7 +23,7 @@ if(window.innerWidth <= 500){ //conditional based on max width like media query 
       }
     });
   });
-}else if(window.innerWidth <= 800) {// --tablet--
+}else if(window.innerWidth <= 801) {// --tablet--
   window.addEventListener("scroll", event => {
     let fromTop = window.scrollY + 200;
 
@@ -31,8 +31,8 @@ if(window.innerWidth <= 500){ //conditional based on max width like media query 
       let section = document.querySelector(link.hash);
 
       if (
-        section.offsetTop <= fromTop + 55 &&
-        section.offsetTop + section.offsetHeight > fromTop + 55
+        section.offsetTop <= fromTop + 125 &&
+        section.offsetTop + section.offsetHeight > fromTop + 125
       ) {
         link.classList.add("current");
         // console.log(link)
@@ -50,8 +50,8 @@ if(window.innerWidth <= 500){ //conditional based on max width like media query 
       let section = document.querySelector(link.hash);
 
       if (
-        section.offsetTop <= fromTop + 55 &&
-        section.offsetTop + section.offsetHeight > fromTop + 55
+        section.offsetTop <= fromTop + 95 &&
+        section.offsetTop + section.offsetHeight > fromTop + 95
       ) {
         link.classList.add("current");
         // console.log(link)
