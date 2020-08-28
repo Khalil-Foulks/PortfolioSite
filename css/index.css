@@ -400,26 +400,26 @@ body #wrapper #intro .inner p {
     text-align: center;
   }
 }
-body #wrapper #one {
+body #wrapper #projects {
   background-color: #484aa3;
 }
-body #wrapper #one section {
+body #wrapper #projects section {
   display: flex;
   width: 100%;
 }
 @media  ( max-width: 800px )  {
-  body #wrapper #one section {
+  body #wrapper #projects section {
     flex-direction: column;
     align-items: center;
   }
 }
 @media  ( max-width: 500px )  {
-  body #wrapper #one section {
+  body #wrapper #projects section {
     flex-direction: column;
     align-items: center;
   }
 }
-body #wrapper #one section a img {
+body #wrapper #projects section a img {
   border-radius: 0.2rem;
   border: 0;
   position: relative;
@@ -428,46 +428,46 @@ body #wrapper #one section a img {
   width: 180rem;
 }
 @media  ( max-width: 500px )  {
-  body #wrapper #one section a img {
+  body #wrapper #projects section a img {
     width: 100%;
   }
 }
-body #wrapper #one section .content {
+body #wrapper #projects section .content {
   padding: 4em 4em 2em 4em;
   width: 100%;
 }
-body #wrapper #one section .content .inner h2 {
+body #wrapper #projects section .content .inner h2 {
   padding: 1rem;
 }
-body #wrapper #one section .content .inner p {
+body #wrapper #projects section .content .inner p {
   color: #FBFBFF;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1rem;
 }
-body #wrapper #one section .content .inner .tech {
+body #wrapper #projects section .content .inner .tech {
   color: #FBFBFF;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-body #wrapper #one section .content .inner .tech i {
+body #wrapper #projects section .content .inner .tech i {
   font-size: 2.5rem;
 }
-body #wrapper #one section .content .inner ul {
+body #wrapper #projects section .content .inner ul {
   list-style: none;
   margin: 2rem 0 2rem 0;
   padding-left: 1rem;
   display: flex;
 }
 @media  ( max-width: 800px )  {
-  body #wrapper #one section .content .inner ul {
+  body #wrapper #projects section .content .inner ul {
     padding: 2rem 0 0 0;
   }
 }
-body #wrapper #one section .content .inner ul li {
+body #wrapper #projects section .content .inner ul li {
   margin-right: 15px;
 }
-body #wrapper #one section .content .inner ul li .button {
+body #wrapper #projects section .content .inner ul li .button {
   background-color: transparent;
   border: solid 0.1rem;
   font-size: 1rem;
@@ -488,52 +488,52 @@ body #wrapper #one section .content .inner ul li .button {
   padding: 0 3.75rem;
   position: relative;
 }
-body #wrapper #one section .content .inner ul li .button:hover {
+body #wrapper #projects section .content .inner ul li .button:hover {
   color: #FBFBFF;
   transition: color 1s ease;
   background-color: rgba(139, 139, 139, 0.20008);
   transition: background-color 0.5s ease;
 }
-body #wrapper #one section #first {
+body #wrapper #projects section #first {
   background-color: #0b376c;
 }
-body #wrapper #one section #second {
+body #wrapper #projects section #second {
   background-color: #0f4180;
 }
-body #wrapper #one section #third {
+body #wrapper #projects section #third {
   background-color: #0b376c;
 }
-body #wrapper #one section #fourth {
+body #wrapper #projects section #fourth {
   background-color: #0f4180;
 }
 body #wrapper #two {
   background-color: #b74e91;
 }
-body #wrapper #three {
+body #wrapper #contacts {
   background-color: #232D34;
   position: relative;
   height: 500px;
   text-align: center;
 }
-body #wrapper #three .inner h2 {
+body #wrapper #contacts .inner h2 {
   padding-top: 20rem;
   color: #f9f9f9;
 }
-body #wrapper #three .inner .style1 .social .contact li {
+body #wrapper #contacts .inner .style1 .social .contact li {
   margin-top: 1.7rem;
 }
-body #wrapper #three .inner .style1 .social .contact li .icons {
+body #wrapper #contacts .inner .style1 .social .contact li .icons {
   font-size: 3rem;
   font-weight: bold;
   text-decoration: none;
   margin: 1.2rem 0 0 2rem;
 }
-body #wrapper #three .inner .style1 .social .contact li .icons a {
+body #wrapper #contacts .inner .style1 .social .contact li .icons a {
   color: #838b8f;
   text-decoration: none;
   transition: color 1s;
   margin-right: 1.7rem;
 }
-body #wrapper #three .inner .style1 .social .contact li .icons a:hover {
+body #wrapper #contacts .inner .style1 .social .contact li .icons a:hover {
   color: #f9f9f9;
 }
