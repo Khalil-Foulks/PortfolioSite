@@ -89,8 +89,8 @@ if(window.innerWidth <= 430){ //conditional based on max width like media query 
       let section = document.querySelector(link.hash);
 
       if (
-        section.offsetTop <= fromTop + 95 &&
-        section.offsetTop + section.offsetHeight > fromTop + 95
+        section.offsetTop <= fromTop + 105 &&
+        section.offsetTop + section.offsetHeight > fromTop + 105
       ) {
         link.classList.add("current");
         // console.log(link)
