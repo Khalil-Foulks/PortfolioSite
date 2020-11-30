@@ -16,8 +16,6 @@ if(window.innerWidth <= 430){ //conditional based on max width like media query 
         section.offsetTop + section.offsetHeight > fromTop + 105
       ) {
         link.classList.add("current");
-        // console.log(link)
-        // console.log(1)
       } else {
         link.classList.remove("current");
       }
@@ -35,8 +33,6 @@ if(window.innerWidth <= 430){ //conditional based on max width like media query 
         section.offsetTop + section.offsetHeight > fromTop + 105
       ) {
         link.classList.add("current");
-        // console.log(link)
-        // console.log(2)
       } else {
         link.classList.remove("current");
       }
@@ -55,8 +51,6 @@ if(window.innerWidth <= 430){ //conditional based on max width like media query 
         section.offsetTop + section.offsetHeight > fromTop + 125
       ) {
         link.classList.add("current");
-        // console.log(link)
-        // console.log(2)
       } else {
         link.classList.remove("current");
       }
@@ -74,8 +68,6 @@ if(window.innerWidth <= 430){ //conditional based on max width like media query 
         section.offsetTop + section.offsetHeight > fromTop + 75
       ) {
         link.classList.add("current");
-        // console.log(link)
-        // console.log(3)
       } else {
         link.classList.remove("current");
       }
@@ -93,8 +85,6 @@ if(window.innerWidth <= 430){ //conditional based on max width like media query 
         section.offsetTop + section.offsetHeight > fromTop + 105
       ) {
         link.classList.add("current");
-        // console.log(link)
-        // console.log(3)
       } else {
         link.classList.remove("current");
       }
@@ -102,6 +92,3 @@ if(window.innerWidth <= 430){ //conditional based on max width like media query 
   });
 }
 
-
-// console.log(window.innerWidth)
-// console.log(document.querySelector(link.hash).offsetTop)
