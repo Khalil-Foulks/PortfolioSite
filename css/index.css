@@ -547,15 +547,12 @@ body #wrapper #projects section .content .inner ul li .button:hover {
   background-color: rgba(139, 139, 139, 0.20008);
   transition: background-color 0.5s ease;
 }
-body #wrapper #projects section #first {
+body #wrapper #projects section #first,
+body #wrapper #projects section #third,
+body #wrapper #projects section #fifth {
   background-color: #0b376c;
 }
-body #wrapper #projects section #second {
-  background-color: #0f4180;
-}
-body #wrapper #projects section #third {
-  background-color: #0b376c;
-}
+body #wrapper #projects section #second,
 body #wrapper #projects section #fourth {
   background-color: #0f4180;
 }
